@@ -1,0 +1,34 @@
+# Framework for Cloud IT Governance
+# Mini Project - Python Simulation
+
+class CloudUser:
+    def __init__(self, name, role):
+        self.name = name
+        self.role = role
+
+class CloudResource:
+    def __init__(self, resource_name, cost_per_hour):
+        self.resource_name = resource_name
+        self.cost_per_hour = cost_per_hour
+
+class CloudGovernanceFramework:
+    def __init__(self):
+        self.users = []
+        self.resources = []
+        self.policies = []
+        self.usage_log = []
+
+    def add_user(self, user):
+        self.users.append(user)
+        print(f"User added: {user.name} ({user.role})")
+
+    def add_resource(self, resource):
+        self.resources.append(resource)
+        print(f"Resource added: {resource.resource_name}")
+
+    def set_policy(self, policy):
+        self.policies.append(policy)
+        print(f"Policy set: {policy}")
+
+    def use_resource(self, user_name, resource_name, hours):
+        us
