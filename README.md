@@ -1,5 +1,13 @@
 # Framework-of-Coud-IT-Governance
 
+We’ll simulate a Cloud Governance Framework that manages:
+
+Access control (who can use resources)
+
+Cost tracking (usage monitoring)
+
+Policy enforcement (checking compliance)
+
 #Sample Output
 
 User added: Alice (Admin)
