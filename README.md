@@ -8,7 +8,7 @@ Cost tracking (usage monitoring)
 
 Policy enforcement (checking compliance)
 
-#Sample Output
+# SAMPLE OUTPUT
 
 User added: Alice (Admin)
 User added: Bob (Guest)
